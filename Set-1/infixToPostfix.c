@@ -64,6 +64,7 @@ void infixToPostfix(char infix[], char postfix[]) {
             }
             push(ch);
         }
+        // Ignore any other characters (like spaces)
     }
 
     while (peek() != '\0') {
